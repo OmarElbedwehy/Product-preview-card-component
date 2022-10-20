@@ -101,6 +101,7 @@ button img{
 .attribution a{
   font-weight: bold;
   color: #0000ff;
+  text-decoration: none;
 }
 
 .attribution a:hover{
@@ -109,13 +110,14 @@ button img{
 
 @media (max-width: 768px) {
   main{
-    width: 93%;
-    height: 94vh;
+    width: 93.5%;
+    height: 91vh;
   }
   .card{
     width: 330px;
     display: block;
-    height: 92vh;
+    height: 100%;
+    margin: 0;
   }
   .card .main-img-desktop{
     display: none;
@@ -140,7 +142,11 @@ button img{
   }
   .card .text .price{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+  }
+  .card .text .price::after{
+    top: 6px;
+    margin-left: 15px;
   }
   .attribution{
     display: none;
