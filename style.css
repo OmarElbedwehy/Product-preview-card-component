@@ -86,6 +86,7 @@ button{
   font-size: 1rem;
   position: relative;
   cursor: pointer;
+  outline: none;
 }
 
 button img{
