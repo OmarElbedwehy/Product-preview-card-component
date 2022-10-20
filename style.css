@@ -21,7 +21,7 @@ main{
   border-radius: 10px;
   overflow: hidden;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .card .main-img-desktop{
@@ -44,8 +44,9 @@ main{
 
 .card .text h1{
   font-family: 'Fraunces', serif;
-  font-size: 2.9rem;
+  font-size: 2.8rem;
   line-height: 1.1;
+  max-width: 330px;
 }
 
 .card .text p{
@@ -59,8 +60,8 @@ main{
 
 .card .text .price{
   color: hsl(158, 36%, 37%);
-  margin-right: 30px;
   position: relative;
+  margin-bottom: 1.4rem;
 }
 
 .card .text .price::after{
@@ -87,6 +88,11 @@ button{
   position: relative;
   cursor: pointer;
   outline: none;
+  transition: 0.3s;
+}
+
+button:hover{
+  background-color: hsl(158deg 35% 42%);
 }
 
 button img{
