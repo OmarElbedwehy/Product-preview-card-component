@@ -106,8 +106,12 @@ button img{
 }
 
 @media (max-width: 768px) {
+  main{
+    width: 93%;
+    height: 92vh;
+  }
   .card{
-    width: 340px;
+    width: 320px;
     display: block;
     height: 92vh;
   }
@@ -135,5 +139,8 @@ button img{
   .card .text .price{
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+  .attribution{
+    display: none;
   }
 }
